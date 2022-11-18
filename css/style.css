@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* primary-_colors*/
+:root{
+    --primary_color:rgb(245, 134, 7);
+    --text_shadow: 1px 1px 1px rgba(0, 0, 0, 0.897);
+    --box_shadow:0 0 11px 0.2px rgb(192, 187, 187);
+}
+.form-control {
+
+    border: 2px solid var(--primary_color)!important;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--primary_color);
+    outline: 0;
+    box-shadow: 0 0 0 0.05rem var(--primary_color)!important;
+  }
+.site_primary_color{
+    color:var(--primary_color);
+}
+.site_bg_color{
+    background-color: var(--primary_color);
+}
+.text_shadow{
+    text-shadow: var(--text_shadow);
+}
+h1,h2{
+    font-weight: bold;
+}
+/* home_section */
+.home_section{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(130deg,white,50% ,rgb(245, 134, 7) 1% )
+}
+.nav-link{
+    font-weight: bold;
+    transition: 0.3s ease;
+    margin-left: 10px;
+    font-size:1rem;
+}
+.nav-link:hover{
+    color:var(--primary_color)!important;
+text-shadow: var(--text_shadow);
+}
+#home_image img{
+    width:80%;
+    animation:image 5s infinite;
+}
+@keyframes image {
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+}
+
+.btn-info {
+    color: white;
+    background-color: var(--primary_color)!important;
+    border-color: var(--primary_color)!important;
+  }
+  .btn-info:hover {
+    color: white;
+    background-color: var(--primary_color)!important;
+    border-color: var(--primary_color)!important
+  }
+  .active{
+   color: var(--primary_color)!important;
+  }
+
+
+
+  /* offers_section */
+  .offers_title::after, .offers_title::before{
+    content: "";
+  width: 100px;
+  height: 3px;
+  margin:10px;
+  background-color:var(--primary_color);
+  display: inline-block;
+  vertical-align: middle;
+  }
+
+  /* two_image_sector */
+  .image_container{
+    width:100%;
+    height: 20rem;
+    position: relative;
+  }
+  .image_container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .image_container_details{
+    position: absolute;
+    top:10%;
+    width: 80%;
+    left:5%;
+    color: white;
+    z-index: 1000;
+  }
+.overlay{
+    position: absolute;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.486),rgba(10, 10, 10, 0.521));
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    z-index: 1;
+}
+/* <!-- delicious_burger_sector --> */
+.delicious_title::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    margin:5px;
+    background-color:var(--primary_color);
+    display: inline-block;
+    vertical-align: middle;
+}
+/*         <!-- delicious_burger_sector --> */
+.burger_card{
+    width: 16rem;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.burger_card_image img{
+    position: absolute;
+    top: 20%;
+    left:50%;
+    width: 90%;
+    transform: translate(-50%,-50%);
+}
+.burger_card:hover{
+    box-shadow:var(--box_shadow);
+    background: var(--primary_color);
+    
+}
+.burger_card_details{
+
+    position: absolute;
+    top:50%;
+    left:2%;
+
+    width:100%;
+}
+
+
+/* other_products */
+
+.other_products{
+    background:linear-gradient(to right,rgb(0, 0, 0,0.7),rgba(0,0,0,0.6)),url('../images/img-1.png');
+    background-position: center center;
+    background-repeat: no-repeat ;
+    background-position: cover;
+    height:60vh;
+    position: relative;
+   
+}
+.other_products .details{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+/*    <!-- Burger-yellow --> */
+.three_yellow_burgers{
+    width:100%;
+    height:15rem;
+position: relative;
+transition: all 2s ease;
+background: var(--primary_color);
+
+}
+.three_yellow_burgers img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.three_yellow_burgers:hover{
+    transform: translateY(-10%);
+    cursor: pointer;
+    box-shadow:var(--box_shadow);
+}
+
+/* about_ss section */
+.about_section h1::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    margin:5px;
+    background-color:var(--primary_color);
+    display: inline-block;
+    vertical-align: middle;
+}
+.about-left{
+    width: 100%;
+    background:var(--primary_color)
+}
+.sub_title::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    margin:1px;
+    background-color:var(--primary_color);
+    display: inline-block;
+    vertical-align: middle;
+}

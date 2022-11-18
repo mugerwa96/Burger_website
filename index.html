@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Burger</title>
+        <!-- Bootstrpa_links -->
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <!-- MaterialDesign_link -->
+        <link rel="stylesheet" href="./assets/css/mdb.min.css">
+        <!-- FontAwesome_link -->
+        <link rel="stylesheet" href="./assets/webfonts/all.css">
+        <!-- Custom_link -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Site_logo -->
+        <link rel="icon" href="./images/PngItem_169716.png">
+    </head>
+
+    <body>
+        <div class="home_section">
+            <!-- navbar_section -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-none shadow-none">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">
+                        <i class="fas fa-burger site_primary_color mx-2"></i> BUR <span
+                            class="site_primary_color">ER</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link text-dark active " href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Services Us</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link text-dark dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Others
+                                </a>
+                                <ul class="dropdown-menu site_bg_color" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Chicken</a></li>
+                                    <li><a class="dropdown-item" href="#">Fried Meat</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Pizza</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <div class="icons">
+                                <i class="fas fa-cart-arrow-down mx-2"></i>
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- home_content -->
+            <section id="home">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+
+                        <div class="col-md-6">
+                            <h1 class="text-dark fw-bold display-2 text_shadow "> Super Delicious
+                                <span class="site_primary_color ">Burger</span>
+                            </h1>
+                            <p class="lead  text-dark fs-4">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+                                fugiat totam nihil!
+                            </p>
+                            <a href="">
+                                <button type="button" class="btn btn-info ">ORDER NOW</button>
+                            </a>
+                        </div>
+                        <div class="col-md-6" id="home_image">
+                            <img src="./images/PngItem_169716.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- offers_section -->
+        <div class="offers_section py-5">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <h1 class="text-dark text-center offers_title text_shadow">OFFERS</h1>
+
+                    <div class="offers_container">
+                        <div class="container">
+                            <div class="row py-5">
+                                <!-- Burger -->
+                                <div class="col-md-3 text-center">
+                                    <i class="fas fa-burger fa-3x text-dark"></i>
+                                    <p class="text-dark lead">Burger 50% off</p>
+                                </div>
+                                <!-- Free Delievery -->
+                                <div class="col-md-3 text-center">
+                                    <i class="fas fa-van-shuttle fa-3x text-dark"></i>
+                                    <p class="text-dark lead">Free Delievery </p>
+                                </div>
+                                <!-- Burger Free fries -->
+                                <div class="col-md-3 text-center">
+                                    <i class="fas fa-note-sticky fa-3x text-dark"></i>
+                                    <p class="text-dark lead">Burger Free fries</p>
+                                </div>
+                                <!-- Burger Free fries -->
+                                <div class="col-md-3 text-center">
+                                    <i class="fas fa-ice-cream fa-3x text-dark"></i>
+                                    <p class="text-dark lead">Burger With Ice Cream</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Two_image_sector -->
+        <div class="two_image_sector  pb-5">
+            <div class="container">
+                <div class="row">
+                    <!-- left_image -->
+                    <div class="col-md-6">
+                        <div class="image_container shadow">
+                            <img src="./images/img-3.jpg" alt="" class="rounded">
+                            <div class="image_container_details">
+                                <div class="title">
+                                    <p class="fs-2 site_primary_color fw-bold">Ham Burger</p>
+                                    <small class="tet-light text-lead fw-bold ">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Harum quia repellendus soluta!</small> <br>
+                                    <button type="button" class="btn btn-outline-warning my-2">Warning</button>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <!-- right_image -->
+                    <div class="col-md-6">
+                        <div class="image_container shadow">
+                            <img src="./images/img-4.jpg" alt="" class="rounded">
+                            <div class="image_container_details">
+                                <div class="title">
+                                    <p class="fs-2 site_primary_color fw-bold">Pizza</p>
+                                    <small class="tet-light text-lead fw-bold ">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Harum quia repellendus soluta!</small> <br>
+                                    <button type="button" class="btn btn-outline-warning my-2">Warning</button>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- threww_image_sector -->
+        <div class="three_image_sector pb-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Fried Chicken -->
+                    <div class="col-md-4">
+                        <div class="image_container shadow">
+                            <img src="./images/chicken.png" alt="" class="rounded">
+                            <div class="image_container_details">
+                                <div class="title">
+                                    <p class="fs-2 site_primary_color fw-bold">Fried Chicken</p>
+                                    <small class="tet-light text-lead fw-bold ">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Harum quia repellendus soluta!</small> <br>
+                                    <button type="button" class="btn btn-outline-warning my-2">Warning</button>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+
+                    <!-- deta -->
+                    <div class="col-md-4">
+                        <div class="image_container shadow">
+                            <img src="./images/img-1.png" alt="" class="rounded">
+                            <div class="image_container_details">
+                                <div class="title">
+                                    <p class="fs-2 site_primary_color fw-bold">Pizza</p>
+                                    <small class="tet-light text-lead fw-bold ">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Harum quia repellendus soluta!</small> <br>
+                                    <button type="button" class="btn btn-outline-warning my-2">Warning</button>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <!-- Cheese Burger  -->
+                    <div class="col-md-4">
+                        <div class="image_container shadow">
+                            <img src="./images/img-5.jpg" alt="" class="rounded">
+                            <div class="image_container_details">
+                                <div class="title">
+                                    <p class="fs-2 site_primary_color fw-bold">Pizza</p>
+                                    <small class="tet-light text-lead fw-bold ">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Harum quia repellendus soluta!</small> <br>
+                                    <button type="button" class="btn btn-outline-warning my-2">Warning</button>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- delicious_burger_sector -->
+        <div class="delicious_burger_sector py-5">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center text-dark fw-bold display-4 text_shadow">Delicious Burger </h1>
+                    <span class="delicious_title"></span>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- burger_item_card -->
+                    <div class="col-md-3 py-3">
+                        <div class="burger_card  border border-1 rounded ">
+                            <div class="burger_card_image">
+                                <img src="./images/chicken.png" alt="">
+                            </div>
+                            <div class="burger_card_details">
+                                <h3 class="text-dark fw-bold">Tasty Burger</h3>
+                                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus a
+                                    impedit odit?</p>
+                                <div class="price text-dark fw-bold d-flex align-item-center justify-content-around">
+
+                                    <p class="text-lead">Ugx:10,000</p>
+                                    <div class="icon">
+                                        <i class="fas fa-cart-shopping "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Other products -->
+        <div class="other_products py-5">
+            <div class="container">
+                <div class="row justify-content-center align-item-center">
+                    <div class="col-md-8 text-light fw-bold">
+                        <div class="details text-center">
+                            <h2 class="fw-bold display-4 text_shadow" >Other Products</h2>
+                            <small class="text-lead fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, sapiente voluptatum! Quidem?</small> <br>
+                            <button type="button" class="my-3 btn btn-info">ORDER NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Burger-yellow -->
+        <div class="burger_yellow py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="three_yellow_burgers rounded ">
+                            <img src="./images/chicken.png" class="img-fluid" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="three_yellow_burgers rounded ">
+                            <img src="./images/chicken.png" class="img-fluid" alt=""/>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="three_yellow_burgers rounded ">
+                            <img src="./images/chicken.png" class="img-fluid" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About_section -->
+        <div class="about_section py-5">
+            <div class="container ">
+                <h1 class="text-center text-dark fw-bold display-4 text_shadow" >About  </h1>
+                <div class="row justify-content-around align-item-center   ">
+                   <!-- image_side -->
+                    <div class="col-md-6">
+                        <div class="about-left shadow rounded">
+                            <img src="./images/chicken.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <!-- details_side_about -->
+                    <div class="col-md-6 " >
+                        <h2 class="sub_title text-dark text_shadow">Delicious Burger</h2>
+                        <p class="fs-6 text-dark py-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, 
+                            repellat. Harum laboriosam inventore distinctio quaerat, ratione 
+                            adipisci dolor facilis. Et debitis quis ab, tenetur amet numquam optio 
+                            suscipit nostrum enim? Enim unde porro officia nostrum quos assumenda, 
+                            alias, ab quis in voluptates possimus maiores veritatis.
+                        </p>
+                        <a href="">
+                            <button type="button" class="btn btn-info">READ MORE .....</button>
+                        </a>
+                        
+                </div>
+            </div>
+        </div>
+
+        <!-- contact_form_section -->
+        <div class="contact_form_section py-5">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <h1 class="text-center text-dark fw-bold display-4 text_shadow" >Contact  Us </h1>
+                    <div class="col-md-6">
+                        <h1 class="text-dark">Contact </h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Fuga veritatis suscipit quae maiores consequuntur animi iste perferendis,
+
+                            </p>
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                              </div>
+                           
+                            <button type="submit" class="btn btn-info">Submit</button>
+                          </form>
+                    </div>
+                    <div class="col-md-6 ">
+                        <h1 class="text-dark">Inform </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea mollitia et sint?</p>
+                      <!-- contact -->
+                        <span> <i class="fas fa-phone fs-5 site_primary_color mx-2"></i> </span>
+                        <span class="text-dark fs-6">+256751189781</span>  
+                      <!-- message -->
+                      <div class="email my-2">
+
+                          <span> <i class="fas fa-envelope fs-5 site_primary_color mx-2"></i> </span>
+                          <span class="text-dark fs-6">artisan@gmail.com</span>
+                      </div>
+                      <!-- location -->
+                      <div class="location my-2">
+
+                          <span> <i class="fas fa-location-dot fs-5 site_primary_color mx-2"></i> </span>
+                          <span class="text-dark fs-6">kireka-Namugongo road</span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/js/bootstrap.js"></script>
+        <script src="./assets/js/mdb.min.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,514 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:Arial, Helvetica, sans-serif;
+
+  line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+
+}
+:root{
+  --primary-color:rgb(233, 54, 10);
+  --secondary-color:  color: #777;
+  --secondary-font:cursive;
+}
+.site-primary-color{
+  color: var(--primary-color)!important;
+}
+.secondary-font{
+font-family: var(--secondary-font);
+}
+::-webkit-scrollbar
+{
+  display: none;
+}
+.site-bg-color{
+  background-color: var(--primary-color)!important;
+}
+.nav-link{
+  font-weight:600!Important;
+ 
+ font-size: 1.1rem;
+}
+
+.navbar-brand img{
+  width: 12rem;
+}
+ .header-tag::after,
+.header-tag::before{
+  content: " ";
+  width: 40px;
+  height: 4px;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+/* site setting */
+
+/* bootstrap-settings_start */
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: var(--primary-color)!important;
+  border-color: var(--primary-color)!important;
+  box-shadow: 0 0 0 0.01rem var(--primary-color)!important;
+}
+
+.nav-link.active{
+  color:var(--primary-color)!important;
+}
+
+
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: var(--primary-color)!important;
+  outline: 0;
+  box-shadow: 0 0 0 0.05rem var(--primary-color)!important;
+}
+
+
+/* bootstrap-settings_end */
+
+
+
+
+
+/* header-section_start */
+
+.carousel-item{
+  height: 100vh;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  object-fit: cover!important;
+}
+.carousel-caption{
+  top:35%
+}
+.slide1{
+
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.548)), url(../images/cover1.jpg);
+}
+
+
+/* header-section_end */
+
+
+
+
+/* <!-- about_us_section_start --> */
+
+.about-us-tag::after
+{
+  content: "";
+  width:9rem;
+  height: 0.2rem;
+  background:var(--primary-color);
+  display:block;
+  margin-top:10px;
+}
+img{
+  width: 100%;
+}
+/* <!-- about_us_section_end --> */
+
+
+
+/* sevices-sector_start */
+.service-tag::after,
+.service-tag::before{
+  content: "";
+  width: 5rem;
+  height: 0.3rem;
+  background:var(--primary-color);
+  margin: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cards{
+  width: 18rem;
+  height: 24rem;
+  overflow: hidden;
+position: relative;
+transition: all 1s;
+background:#fff;
+}
+.cards img{
+  position: absolute;
+  width: 100%;
+  height: 50%;
+
+}
+.cards .details{
+  position: absolute;
+  top:50%;
+}
+.scale-on-hover:hover {
+ transform: scale(1.04);
+}
+/* sevices-sector_end */
+
+
+/* <!-- why_section_start --> */
+
+#why{
+
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.548)), url(../images/cover1.jpg);
+position: relative;
+}
+.feature-container{
+  width: 18rem;
+  height: 20rem;
+  border: 1.5px solid rgb(253, 253, 253);
+  position: relative;
+  transition: all 1s;
+}
+.icon-container{
+  position: absolute;
+  width: 30%;
+  max-width:90%;
+  height:5rem;
+  background:var(--primary-color);
+  top:30%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.icon-container i{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.feature-container .details{
+  position: absolute;
+  width: 90%;
+  top:50%;
+ /* left: 20%; */
+
+}
+
+/* <!-- why_section_start -->end */
+
+/* footer */
+/* Footer */
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/cover1.jpg);
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+}
+
+footer p,
+footer a{
+  color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+footer img {
+  max-width: 175px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+
+
+
+
+/* ::::CONTACT US PASGE START */
+
+#header-section-start{
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/dolores-preciado-Vu_fjfasu-4-unsplash.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  position: relative;
+}
+#header-section-start h1{
+  position: absolute;
+  top:60%;
+  left:50%;
+  font-family: cursive;
+  transform: translate(-50%,-50%);
+}
+#contact-section .sub-title::after{
+  content: "";
+  width: 10rem;
+  height: 0.3rem;
+  background-color: var(--primary-color);
+  display: block;
+  margin-top: 0.5rem;
+
+}
+
+.our-kitchen{
+  width: 30rem;
+  height: 10rem;
+  position: relative;
+padding: 0;
+display: flex;
+}
+.our-kitchen .left{
+
+  flex-basis:50%;
+}
+.our-kitchen .right{
+  
+  background:black;
+  flex-basis:50%;
+}
+
+.social-container{
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  background: var(--primary-color);
+}
+.social-container i{
+  position: absolute;
+  top:50%;
+  left:50%;
+  color: #fff;
+  transform: translate(-50%,-50%);
+}
+/* ::::CONTACT US PASGE END */
+
+
+
+
+
+/* :::::SERVICES-SECTOR-START */
+.service-sub::after,
+.service-sub::before
+{  content: "";
+  width: 3rem;
+  height:0.2rem;
+  background-color: var(--primary-color);
+  display: inline-block;
+  margin-top: 0.5rem;
+  vertical-align: middle;
+  margin: 10px;
+  
+}
+#runner{
+  /* height: 30vh; */
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/dolores-preciado-Vu_fjfasu-4-unsplash.jpg);
+  /* background-repeat: no-repeat; */
+  object-fit: contain;
+  /* background-position: center center; */
+}
+
+
+
+
+/* :::::SERVICES-SECTOR-END */
+
+
+
+/* ::::::ABOUT-SECTION:::::; */
+.about-tag::after,
+.about-tag::before
+{  content: "";
+  width: 3rem;
+  height:0.2rem;
+  background-color: var(--primary-color);
+  display: inline-block;
+  margin-top: 0.5rem;
+  vertical-align: middle;
+  margin: 10px;
+  
+}
+
+.pic{
+  width:30rem;
+  height: 20rem;
+}
+/* ::::::ABOUT-SECTION:::::; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ::::MDEIA SCREEN */
+@media screen and (max-width:786px) {
+  
+  /* header-section_start */
+
+.carousel-item{
+  height: 60vh;
+
+}
+.carousel-caption{
+  top:20%!important;
+  width: 100%;
+  left:0%
+}
+
+
+
+/* header-section_end */
+
+
+/* <!-- about_us_section_start --> */
+
+#about{
+  margin-top: -4rem!important;
+  text-align: center;
+}
+.about-us-tag::after
+{
+  
+  vertical-align: middle;
+  margin:auto;
+}
+/* <!-- about_us_section_end --> */
+
+
+/* sevices-sector_start */
+#services{
+  margin-top:-7rem;
+}
+.service-tag::after,
+.service-tag::before{
+  content: "";
+  width: 3rem;
+  height: 0.3rem;
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.cards{
+  width: 22rem!important;
+  height: 26rem;
+}
+
+/* sevices-sector_end */
+
+
+
+
+/* <!-- why_section_start --> */
+
+#why{
+
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.548)), url(../images/cover1.jpg);
+position: relative;
+}
+.feature-container{
+  width: 22rem!important;
+  height: 20rem;
+
+}
+
+.feature-head{
+  font-size: 25px;
+}
+.feature-sub-head{
+  font-size: 21px!important;
+}
+
+
+/* <!-- why_section_start -->end */
+
+
+/* <!-- reservation_start --> */
+
+#reservation{
+  margin-top:-2rem!important;
+}
+
+
+
+/* ::::CONTACT US PASGE START */
+
+#header-section-start{
+  height: 30vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/dolores-preciado-Vu_fjfasu-4-unsplash.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  position: relative;
+}
+.more{
+  margin-top: -3rem;
+}
+
+.our-kitchen{
+  width: 30rem;
+  height: 11rem;
+
+}
+
+/* ::::CONTACT US PASGE END */
+
+
+
+
+/* :::about */
+#vision .card{
+  width:21rem!important;
+  height:10rem;
+}
+.runner2 h1 {
+  width:25rem!important;
+margin-left:-4rem;
+}
+.runner2 p {
+  width:20rem!important;
+margin-left:-20px;
+}
+}
