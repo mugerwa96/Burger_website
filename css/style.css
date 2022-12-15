@@ -51,7 +51,7 @@ h1,h2{
 text-shadow: var(--text_shadow);
 }
 #home_image img{
-    width:80%;
+    width:100%;
     animation:image 5s infinite;
 }
 @keyframes image {
@@ -218,4 +218,31 @@ background: var(--primary_color);
     background-color:var(--primary_color);
     display: inline-block;
     vertical-align: middle;
+}
+
+
+
+/* media screens */
+@media screen and (max-width:768px) {
+    /* home_section */
+.nav-title {
+    text-align: center;
+}
+
+    /*         <!-- delicious_burger_sector --> */
+.burger_card{
+    width: 23rem;
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease;
+}
+/* other_products */
+
+.other_products{
+    height:40vh;
+}
+.other_products .details{
+    width: 100%;
+}
 }
